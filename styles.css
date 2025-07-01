@@ -1,0 +1,65 @@
+/*— base —*/
+body {
+  background: #f4f1ea;
+  color: #2c2c2c;
+  font-family: 'Cardo', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/*— container to center and constrain everything —*/
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ccc5b9;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden; /* keep child elements inside */
+}
+
+/*— header banner —*/
+.header-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  max-height: 350px;
+  border-bottom: 5px solid #ccc5b9;
+  margin-bottom: 20px;
+}
+
+/*— headings in a more “Celtic” style —*/
+h1, h2, h3 {
+  font-family: 'Cinzel Decorative', serif;
+  color: #3e322c;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+h1 { font-size: 3em; }
+h2 { font-size: 1.6em; font-weight: 400; margin-bottom: 0.5em; }
+h3 { font-size: 1.3em; margin-top: 1.2em; }
+
+/*— blockquote styling —*/
+blockquote {
+  font-style: italic;
+  text-align: center;
+  color: #6b5f54;
+  margin: 1.5em auto;
+}
+
+/*— lists and footer —*/
+ul {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+footer {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 0.9em;
+  color: #888;
+}
